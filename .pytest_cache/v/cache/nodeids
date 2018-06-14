@@ -1,0 +1,4 @@
+[
+  "tests/test_03_country_subset.py::test_get_mean_price",
+  "tests/test_03_country_subset.py::test_get_country"
+]
