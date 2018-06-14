@@ -3,7 +3,7 @@
 Module contaning the functions to visualize the 
 wines distribution using a subset data
 """
-
+import os
 import sys
 import datetime
 
@@ -52,6 +52,7 @@ def plot_distribution(wine):
 
     fname = f'figures/fig01_distribution-wine-scores.png'
     
+    # avoid catching errors 
     try:
         fig.savefig(fname, bbox_inches = 'tight')
     except OSError as e:

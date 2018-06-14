@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 """
 Module containing functions to subset the raw data:
 keeps description, country, price, points and adds
